@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning via Bootstrapped DQN for playing Atari Games
+# Deep Reinforcement Learning via Bootstrapped DQN for Playing Atari Games
 
 This project was a team effort of implementing and investigating the bootstrapped deep Q-network (DQN) for playing selected classic Atari games. It was developed based on [this](https://arxiv.org/abs/1602.04621) paper. The implementation was inspired by [this](https://github.com/pianomania/DQN-pytorch) repo.
 
