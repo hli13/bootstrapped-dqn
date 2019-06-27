@@ -1,88 +1,42 @@
-# Project Title
+# Deep Reinforcement Learning via Bootstrapped DQN for playing Atari Games
 
-One Paragraph of project description goes here
+This project was a team effort of implementing and investigating the bootstrapped deep Q-network (DQN) for playing selected classic Atari games. It was developed based on [this](https://arxiv.org/abs/1602.04621) paper. The implementation was inspired by [this](https://github.com/pianomania/DQN-pytorch) repo.
 
-## Getting Started
+[OpenAI Gym](https://gym.openai.com/envs/#atari) was integrated in the pipeline to obtain the dataset for Atari games. The deep learning agent was trained on [BlueWaters](http://www.ncsa.illinois.edu/enabling/bluewaters) GPU nodes for approximately 600 hours.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The bootstrapped DQN architecture aims to enable deep and more efficient exploration as compared to classical algorithms. We showed that the boostratpped DQN is able to reach human performance 26% faster than the classical DQN with epsilon-greedy exploration.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+## Dependencies
 
 ```
-Give examples
+numpy==1.16.4
+matplotlib==3.1.0
+torch==0.4.1
+torchvision==0.2.1
+gym==0.10.9
 ```
 
-### Installing
+## Dataset
 
-A step by step series of examples that tell you how to get a development env running
+The Atari game dataset is provided by [OpenAI Gym](https://gym.openai.com/envs/#atari). Among all the games available in the environment, we selected [Pong](https://gym.openai.com/envs/Pong-v0/) and [Breakout](https://gym.openai.com/envs/Breakout-v0/) to train and test the performance of the agent.
 
-Say what the step will be
+## Implementation
 
-```
-Give the example
-```
+TBD
 
-And repeat
+## Hyerparameters
 
-```
-until finished
-```
+TBD
 
-End with an example of getting some data out of the system or using it for a little demo
+## Running the model
 
-## Running the tests
+TBD
 
-Explain how to run the automated tests for this system
+## Result
 
-### Break down into end to end tests
+TBD
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+## Contributors
+ - Haoyang Li
+ - Qianli Chen
+ - Muyun Lihan
