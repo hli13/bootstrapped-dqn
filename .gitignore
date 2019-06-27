@@ -39,5 +39,7 @@ Thumbs.db
 # Document files #
 ##################
 *.pdf
+*.ppt
+*.pptx
 *.xlsx
 *.xls
