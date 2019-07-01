@@ -1,5 +1,7 @@
 # Deep Reinforcement Learning via Bootstrapped DQN for Playing Atari Games
 
+> Code refactoring is in progress
+
 This project was a team effort of implementing and investigating the bootstrapped deep Q-network (DQN) for playing selected classic Atari games. It was developed based on [this](https://arxiv.org/abs/1602.04621) paper. The implementation was inspired by [this](https://github.com/pianomania/DQN-pytorch) repo.
 
 [OpenAI Gym](https://gym.openai.com/envs/#atari) was integrated in the pipeline to obtain the dataset for Atari games. The deep learning agent was trained on [BlueWaters](http://www.ncsa.illinois.edu/enabling/bluewaters) GPU nodes for approximately 600 hours.
